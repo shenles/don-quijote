@@ -1,6 +1,3 @@
-# -*- coding: cp1252 -*-
-# Leslie Shen
-
 ## This program figures out what percent of vocab
 ## in Ch. 1-2 of "El ingenioso hidalgo don Quijote de la Mancha"
 ## is recognizable by someone who knows English but not much Spanish.
@@ -172,7 +169,7 @@ def removeDuplicates(wordstring):  # helper, called in trimDict and vocabQuijote
     return myWordsList
 
 duplicateTest = 'abdicable abdicant abdicated abdicating abdicate abdication abdicative abdicator abditive abditory abdomen abdominal abdominals abdominales abdominalia abdominoscopy abdominothoracic abdominous abduced abducing abduce abducted abducting abduct abduction abductor abeam abear abearance abearing abecedarian abecedary abed abegge abele abelian abelite abelonian abelmosk aberdevine aberr aberrance aberrancy aberrant aberrate aberration aberrational aberuncate aberuncator abetted abetting abet abetment abettal abetter abettor abevacuation abeyance abeyancy abeyant abhal abhominable abhominal abhorred abhorring abhor abhorrence abhorrency abhorrent abhorrently abhorrer abhorrible abib abidance abode abid abiding abide abider abidingly abies abietene abietic abietin abietine abietinic abietite abigail' 
-accentTest = '-Sí oigo -respondió Sancho-; pero, ¿qué hace a nuestro propósito la caza de Roncesvalles? Así pudiera cantar el romance de Calaínos'
+accentTest = '-SÃ­ oigo -respondiÃ³ Sancho-; pero, Â¿quÃ© hace a nuestro propÃ³sito la caza de Roncesvalles? AsÃ­ pudiera cantar el romance de CalaÃ­nos'
 
 def replaceAccents(s):  # helper, called in vocabQuijote
     '''Replaces accented characters and other strange characters
